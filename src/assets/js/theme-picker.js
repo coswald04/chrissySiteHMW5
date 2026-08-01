@@ -20,9 +20,9 @@ function getSavedTheme() {
 
 function applyTheme(theme) {
     if (theme === "light" || theme === "dark") {
-        root.dataset.theme = theme;
+        root.setAttribute("data-theme", theme);
     } else {
-        delete root.dataset.theme;
+        root.removeAttribute("data-theme");
     }
 }
 
