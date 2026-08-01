@@ -1,0 +1,13 @@
+<footer>
+    <p>&copy; {{ site.year }} {{ site.author }}</p>
+
+    <nav aria-label="Social links">
+        <ul>
+            {% for social in site.socials %}
+                <li><a href="{{ social.url }}">{{ social.label }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+
+    <a href="#top">Back to Top</a>
+</footer>
