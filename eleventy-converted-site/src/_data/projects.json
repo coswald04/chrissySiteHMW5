@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Mojo Dojo Multiply",
+    "slug": "mojo-dojo-multiply",
+    "type": "Educational Game",
+    "technology": "TypeScript",
+    "date": "September 2025 - December 2025",
+    "summary": "Mojo Dojo Multiply is an interactive educational video game built with TypeScript. The project was created as part of a team for my Software Engineering course and focuses on helping users practice multiplication through engaging gameplay mechanics.",
+    "contributions": [
+      "Developed an educational video game using TypeScript.",
+      "Designed gameplay systems to reinforce multiplication skills.",
+      "Collaborated with a team using version control and team workflows."
+    ],
+    "progress": 100,
+    "repository": "https://github.com/thatchereames/mojo-dojo-multiply",
+    "image": "",
+    "imageAlt": ""
+  },
+  {
+    "name": "Spoilage",
+    "slug": "spoilage",
+    "type": "Cozy/Horror Cooking Game",
+    "technology": "Unity, C#",
+    "date": "April 2026 - June 2026",
+    "summary": "Spoilage is a hybrid cozy and horror cooking simulation game developed in Unity with the UCSD Video Game Development Club. The project combines resource management with horror elements to create a unique gameplay experience.",
+    "role": "I helped develop the Drag-N-Drop system, Cooking (pan & pot), and the Spoiling (people and food) System.",
+    "contributions": [
+      "Collaborated with a game development team using Unity and C#.",
+      "Contributed to gameplay systems, mechanics, and feature development.",
+      "Worked with version control, coordination, and iterative development."
+    ],
+    "release": "Will be out on Steam as of TBD.",
+    "progress": 100,
+    "repository": "https://github.com/vgdc-ucsd/Spoilage",
+    "image": "/assets/images/spoilage-main.PNG",
+    "imageAlt": "Main Menu of Spoilage Game"
+  },
+  {
+    "name": "Elevate",
+    "slug": "elevate",
+    "type": "Online Task Management and Wardrobe App",
+    "technology": "",
+    "date": "December 2025 - Present",
+    "summary": "Elevate is a mobile-first productivity app that combines task management with a digital wardrobe system. The app helps users plan their schedules and generate outfit combinations from their own clothing pieces.",
+    "contributions": [
+      "Developing core productivity and wardrobe planning features.",
+      "Designing recurring tasks, notifications, and clothing categorization.",
+      "Building a swipe-based outfit recommendation interface.",
+      "Will be implementing a React Native element for user interaction and a backend database storage system."
+    ],
+    "progress": 20,
+    "repository": "",
+    "image": "",
+    "imageAlt": ""
+  },
+  {
+    "name": "UnNamed",
+    "slug": "unnamed",
+    "type": "Biblical Horror/Action 3D Game",
+    "technology": "",
+    "date": "February 2026 - Present",
+    "summary": "UnNamed is a story-driven 3D game that combines action mechanics with narrative decision-making. The project focuses on immersive environments, combat systems, and branching story paths.",
+    "contributions": [
+      "Developing a 3D action game with story-driven gameplay.",
+      "Implementing player progression, combat mechanics, and branching choices.",
+      "Using game design principles to create immersive environments."
+    ],
+    "progress": 10,
+    "repository": "",
+    "image": "",
+    "imageAlt": ""
+  }
+]

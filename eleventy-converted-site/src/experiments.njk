@@ -1,0 +1,53 @@
+---
+layout: layouts/base.njk
+title: Experiments
+description: Explore HTML media, template, canvas, and source element experiments by Christine Oswald.
+permalink: /experiments/
+---
+<h1 id="experiments-header">Experiments</h1>
+
+<section>
+    <h2>Template Element</h2>
+    <p>Stores an HTML element that isn't displayed immediately.</p>
+    <template>
+        <article>
+            <p>This content is hidden inside of the template card.</p>
+        </article>
+    </template>
+</section>
+
+<section>
+    <h2>Audio Element</h2>
+    <p>Demonstrates how sound can be embedded into an HTML page.</p>
+    <audio controls>
+        <source src="/assets/media/barrelroll.mp3" type="audio/mpeg">
+        Your browser doesn't support the audio element.
+    </audio>
+</section>
+
+<section>
+    <h2>Video Element</h2>
+    <p>Demonstrates how videos can be embedded into an HTML page.</p>
+    <video controls width="320">
+        <source src="/assets/media/peak.mp4" type="video/mp4">
+        Your browser doesn't support the video element.
+    </video>
+</section>
+
+<section>
+    <h2>Canvas Element</h2>
+    <p>The canvas element creates a drawing area on the page.</p>
+    <canvas id="experiment-canvas" width="300" height="150">
+        Your browser does not support the canvas element.
+    </canvas>
+</section>
+
+<section>
+    <h2>Source Element</h2>
+    <p>The source element provides different media files for the browser to choose from. It is commonly used inside video, audio, and picture elements.</p>
+    <audio controls>
+        <source src="/assets/media/supernatural.mp3" type="audio/mpeg">
+        <source src="/assets/media/supernatural.wav" type="audio/wav">
+        Your browser doesn't support the audio element.
+    </audio>
+</section>
