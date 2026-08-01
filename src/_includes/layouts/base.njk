@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {% include "head.njk" %}
+    </head>
+    <body id="top">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+
+        {% include "header.njk" %}
+
+        <main id="main-content" data-pagefind-body>
+            {{ content | safe }}
+        </main>
+
+        {% include "footer.njk" %}
+
+        <script src="/assets/js/theme-picker.js" type="module"></script>
+        <script src="/assets/js/dog-of-the-day.js" type="module"></script>
+    </body>
+</html>

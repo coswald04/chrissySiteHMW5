@@ -1,0 +1,49 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: projects
+  size: 1
+  alias: project
+permalink: "/projects/{{ project.slug }}/"
+eleventyComputed:
+  title: "{{ project.name }}"
+  description: "{{ project.summary }}"
+---
+<article>
+    <h1>{{ project.name }}</h1>
+
+    {% if project.image %}
+        <figure>
+            <img src="{{ project.image }}" alt="{{ project.imageAlt }}">
+        </figure>
+    {% endif %}
+
+    <p><strong>Type:</strong> {{ project.type }}</p>
+    {% if project.technology %}<p><strong>Technology:</strong> {{ project.technology }}</p>{% endif %}
+    <p><strong>Date:</strong> {{ project.date }}</p>
+
+    <p>{{ project.summary }}</p>
+    {% if project.role %}<p>{{ project.role }}</p>{% endif %}
+
+    <section>
+        <h2>My Contributions</h2>
+        <ul>
+            {% for contribution in project.contributions %}
+                <li>{{ contribution }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    {% if project.release %}<p>{{ project.release }}</p>{% endif %}
+
+    <p>
+        <label for="project-progress">Project progress:</label>
+        <progress id="project-progress" max="100" value="{{ project.progress }}">{{ project.progress }}%</progress>
+    </p>
+
+    {% if project.repository %}
+        <p><a href="{{ project.repository }}">View the project repository</a></p>
+    {% endif %}
+
+    <p><a href="/projects/">Back to all projects</a></p>
+</article>
